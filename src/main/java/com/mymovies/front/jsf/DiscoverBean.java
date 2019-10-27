@@ -7,7 +7,7 @@ public class DiscoverBean {
 	private int page;
 	private int total_results;
 	private int total_pages;
-	private List<Object> results;
+	private List<Results> results;
 	
 	
 	
@@ -16,7 +16,7 @@ public class DiscoverBean {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public DiscoverBean(int page, int total_results, int total_pages, List<Object> results) {
+	public DiscoverBean(int page, int total_results, int total_pages, List<Results> results) {
 		super();
 		this.page = page;
 		this.total_results = total_results;
@@ -48,10 +48,10 @@ public class DiscoverBean {
 	public void setTotal_pages(int total_pages) {
 		this.total_pages = total_pages;
 	}
-	public List<Object> getResults() {
+	public List<Results> getResults() {
 		return results;
 	}
-	public void setResults(List<Object> results) {
+	public void setResults(List<Results> results) {
 		this.results = results;
 	}
 	
